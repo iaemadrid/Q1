@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --green-dark: #4b6b50;
+  --green-light: #a9c9a4;
+  --gray-dark: #999;
+  --gray-light: #d8d8d8;
+}
+
+.card {
+  @apply rounded-xl p-4 shadow-md;
+}
+
+.value-block {
+  @apply text-2xl font-semibold;
+}
